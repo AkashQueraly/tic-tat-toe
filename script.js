@@ -26,7 +26,7 @@ const checkWin = ()=>{
     wins.forEach(e =>{
         if((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "") ){
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won"
-            isgameover = true
+            isgameover = truegit@github.com:AkashQueraly/tic-tat-toe.gitgit@github.com:AkashQueraly/tic-tat-toe.git
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "200px";
             document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
             document.querySelector(".line").style.width = "20vw";
@@ -65,3 +65,9 @@ reset.addEventListener('click', ()=>{
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
 })
 
+
+// git init
+// git remote add origin link
+// git add .
+// git commit -m 'cdcc'
+// git push origin master
